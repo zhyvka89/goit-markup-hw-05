@@ -474,7 +474,58 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-wrapper"> 
+          <p class="social-media-title">Subscribe</p>
+          <form class="footer-form" action="#">
+              <input class="footer-input" type="email" name="mail" placeholder="E-mail">
+              <button type="submit" class="form-button">Subscribe</button>
+          </form>
+      </div>
       </div>
     </footer>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+          <button type="button" class="btn-modal" data-modal-close>
+              <svg class="btn-icon" width="8" height="8">
+                  <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+          </button>
+          <p class="modal-title">Leave your contacts and we will call you back</p>
+          <form action="#" class="modal-form">
+              <div class="form-field">
+                  <label for="name" class="form-lable">Name</label>
+                  <input type="text" class="form-input" name="name" id="name" placeholder=" " autofocus/>
+                  <svg class="form-icon" width="12" height="12">
+                      <use href="./images/icons.svg#icon-person"></use>
+                  </svg>
+              </div>
+              <div class="form-field">
+                  <label for="phone" class="form-lable">Phone</label>
+                  <input type="tel" class="form-input" name="phone" id="phone" placeholder=" " />
+                  <svg class="form-icon" width="13" height="13">
+                      <use href="./images/icons.svg#icon-phone"></use>
+                  </svg>
+              </div>
+              <div class="form-field">
+                  <label for="mail" class="form-lable">Email</label>
+                  <input type="email" class="form-input" name="mail" id="mail" placeholder=" " />
+                  <svg class="form-icon" width="15" height="12">
+                      <use href="./images/icons.svg#icon-email"></use>
+                  </svg>
+              </div>
+              <div class="form-field">
+                  <label for="comments" class="form-lable">Comment</label>
+                  <textarea name="comments" class="form-comment" id="comments" cols="30" rows="10"
+                      placeholder="Text input"></textarea>
+              </div>
+              <div class="checkbox-field">
+                  <input type="checkbox" class="agreement visually-hidden" name="agreement" id="agreement" />
+                  <label for="agreement" class="agreement-lable">I accept the terms and conditions of the
+                      <a href="" class="agreement-link">Pravacy Policy</a></label>
+              </div>
+              <button type="submit" class="btn-send">Send</button>
+          </form>
+      </div>
+    </div>
   </body>
 </html>
