@@ -442,6 +442,7 @@ img {
 
 .footer-form-icon {
   margin-left: 16px;
+  fill: currentColor;
 }
 
 .backdrop.is-open {
@@ -605,10 +606,6 @@ img {
   position: relative;
   text-align: center;
   color: #8e8f99;
-}
-
-.agreement:checked {
-  background-color: #404bbf;
 }
 
 .agreement-link {
